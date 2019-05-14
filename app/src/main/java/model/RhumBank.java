@@ -31,7 +31,7 @@ public class RhumBank {
 
     public Rhum getRhum(int id) {
 
-        return mRhumList.get(id);
+        return mRhumList.get(id-1);
     }
 
 }
